@@ -10,10 +10,6 @@ source venv/bin/activate
 pip install -r requirements.txt 
 ```
 
-Install [Langchain](https://github.com/hwchase17/langchain) and other required packages.
-```
-pip install langchain openai chromadb tiktoken unstructured
-```
 Modify `constants.py` to use your own [OpenAI API key](https://platform.openai.com/account/api-keys). **Important: I recommend a project key with the appropriate rate limits.**
 
 Place your own data into `data/data.txt`.
